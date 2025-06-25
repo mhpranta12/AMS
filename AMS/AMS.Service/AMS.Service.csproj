@@ -9,5 +9,9 @@
   <ItemGroup>
     <Folder Include="Modules\" />
   </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="8.1.0" />
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+	</ItemGroup>
 
 </Project>

@@ -2,6 +2,9 @@ using AMS.Infrustructure;
 using AMS.Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using AMS.Infrustructure.Modules;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +20,14 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     (m) => m.MigrationsAssembly(migrationAssembly)));
 builder.Services.AddIdentity();
 
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
+{
+    //containerBuilder.RegisterModule(new ApplicationModule());
+    containerBuilder.RegisterModule(new InfrustructureModule(connectionString,
+        migrationAssembly));
+    //containerBuilder.RegisterModule(new WebModule());
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
