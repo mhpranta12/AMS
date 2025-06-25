@@ -5,6 +5,8 @@ using System.Reflection;
 using AMS.Infrustructure.Modules;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Identity;
+using AMS.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +20,8 @@ var migrationAssembly = Assembly.GetExecutingAssembly().FullName;
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString,
     (m) => m.MigrationsAssembly(migrationAssembly)));
+
+//builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddIdentity();
 
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());

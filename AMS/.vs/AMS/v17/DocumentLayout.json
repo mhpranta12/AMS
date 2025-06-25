@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "G:\\Work\\Qtec Interview\\AMS\\AMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.infrustructure\\modules\\infrustructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|solutionrelative:ams.infrustructure\\modules\\infrustructuremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InfrustructureModule.cs",
-              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Modules\\InfrustructureModule.cs",
-              "RelativeDocumentMoniker": "AMS.Infrustructure\\Modules\\InfrustructureModule.cs",
-              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Modules\\InfrustructureModule.cs",
-              "RelativeToolTip": "AMS.Infrustructure\\Modules\\InfrustructureModule.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T18:30:19.214Z",
+              "DocumentIndex": 1,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T20:17:22.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Program.cs",
-              "RelativeDocumentMoniker": "AMS.Web\\Program.cs",
-              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Program.cs",
-              "RelativeToolTip": "AMS.Web\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAABcAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:08:24.521Z",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T20:17:10.69Z",
               "EditorCaption": ""
             }
           ]
