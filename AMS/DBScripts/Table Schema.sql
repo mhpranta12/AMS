@@ -16,6 +16,9 @@ CREATE TABLE [dbo].[Accounts](
 END
 GO
 
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.columns WHERE table_name = 'Accounts' AND column_name = 'AccountType')
+	ALTER TABLE dbo.Accounts ADD AccountType [nvarchar](50) NULL 
+GO
 IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE table_name = 'Vouchers')
 BEGIN
 CREATE TABLE [dbo].[Vouchers](

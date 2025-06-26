@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "G:\\Work\\Qtec Interview\\AMS\\AMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\pages\\accounts\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\pages\\accounts\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.infrustructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|solutionrelative:ams.infrustructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\pages\\accounts\\createaccount.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\pages\\accounts\\createaccount.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T20:17:22.694Z",
+              "DocumentIndex": 2,
+              "Title": "CreateAccount.cshtml.cs",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
+              "RelativeDocumentMoniker": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
+              "RelativeToolTip": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:05:05.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAASAAAAAAAAAA==",
+              "Title": "CreateAccount.cshtml",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
+              "RelativeDocumentMoniker": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
+              "RelativeToolTip": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T20:17:10.69Z",
+              "WhenOpened": "2025-06-26T14:04:12.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "AMS.Infrustructure\\Repositories\\AccountRepository.cs",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "AMS.Infrustructure\\Repositories\\AccountRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T12:28:04.638Z",
               "EditorCaption": ""
             }
           ]

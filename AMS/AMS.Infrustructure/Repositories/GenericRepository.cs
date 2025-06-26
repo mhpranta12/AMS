@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace AMS.Infrustructure.Repositories
 {
-    public class AccountRepository
+    public class GenericRepository
     {
-        public void ExecuteAccountInsertSP(string spName, string connectionString)
+        public void ExecuteSP(string spName,string connectionString)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -27,6 +27,6 @@ namespace AMS.Infrustructure.Repositories
                 }
             }
         }
-
+        
     }
 }
