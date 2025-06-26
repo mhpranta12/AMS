@@ -33,7 +33,12 @@ namespace AMS.Web.Pages.Accounts
         public IActionResult OnPost()
         {
             _accountService.CreateNewAccount(Name,UserType, AccountType, Cash,Recieveable,ParentAccountId);
-            return RedirectToPage("/");
+            return RedirectToPage();
+        }
+        public IActionResult OnPut()
+        {
+            //_accountService.CreateNewAccount(Id,Name, UserType, AccountType, Cash, Recieveable, ParentAccountId);
+            return RedirectToPage();
         }
     }
 }

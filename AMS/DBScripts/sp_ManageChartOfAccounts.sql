@@ -34,8 +34,8 @@ END
 ELSE IF @Action = 'Update'
 BEGIN
 
-    -- Insert statements for procedure here
-	 INSERT INTO Accounts (Id, Name, UserType,Cash,Recieveable,ParentAccountId,AccountType)
-    VALUES (@Id, @Name, @UserType,@Cash,@Recieveable,@ParentAccountId,@AccountType);
+    -- Update statements for procedure here
+	 UPDATE Accounts SET Id=@Id, Name=@Name, UserType=@UserType,Cash=@Cash,Recieveable=@Recieveable,
+	 ParentAccountId=@ParentAccountId,AccountType=@AccountType WHERE Id=@Id;
 END
 END
