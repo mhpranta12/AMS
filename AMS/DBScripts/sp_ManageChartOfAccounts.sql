@@ -13,6 +13,7 @@ GO
 -- =============================================
 CREATE PROCEDURE sp_ManageChartOfAccounts
 	-- Add the parameters for the stored procedure here
+	@Action NVARCHAR(20),
 	@Id uniqueidentifier , 
 	@Name nvarchar(50) , 
 	@UserType nvarchar(50),
@@ -23,9 +24,18 @@ CREATE PROCEDURE sp_ManageChartOfAccounts
 AS
 BEGIN
 	SET NOCOUNT ON;
+IF @Action = 'Insert'
+BEGIN
 
     -- Insert statements for procedure here
 	 INSERT INTO Accounts (Id, Name, UserType,Cash,Recieveable,ParentAccountId,AccountType)
     VALUES (@Id, @Name, @UserType,@Cash,@Recieveable,@ParentAccountId,@AccountType);
 END
-GO
+ELSE IF @Action = 'Update'
+BEGIN
+
+    -- Insert statements for procedure here
+	 INSERT INTO Accounts (Id, Name, UserType,Cash,Recieveable,ParentAccountId,AccountType)
+    VALUES (@Id, @Name, @UserType,@Cash,@Recieveable,@ParentAccountId,@AccountType);
+END
+END

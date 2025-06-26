@@ -10,10 +10,6 @@
     <Folder Include="Model\" />
     <Folder Include="Modules\" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\AMS.Infrustructure\AMS.Infrustructure.csproj" />
-  </ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Autofac" Version="8.1.0" />
 		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
@@ -33,6 +29,10 @@
 		</PackageReference>
 		<PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.17" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\AMS.Infrustructure\AMS.Infrustructure.csproj" />
+	  <ProjectReference Include="..\AMS.Service\AMS.Service.csproj" />
 	</ItemGroup>
 
 </Project>

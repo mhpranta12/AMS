@@ -1,4 +1,6 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using AMS.Core.Entities;
+using AMS.Core.Interfaces;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,9 +10,11 @@ using System.Threading.Tasks;
 
 namespace AMS.Infrustructure.Repositories
 {
-    public class AccountRepository
+    public class AccountRepository:IAccountRepository
     {
-        public void ExecuteAccountInsertSP(string spName, string connectionString)
+        public const string spName = "sp_ManageChartOfAccounts";
+        public const string connectionString = "Server=.\\SQLEXPRESS;Database=ams;User Id=qtec;Password=123456;Trust Server Certificate=True;";
+        public void ExecuteAccountInsertSP(Account account)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -18,12 +22,25 @@ namespace AMS.Infrustructure.Repositories
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    cmd.Parameters.AddWithValue("@FirstName", "John");
-                    cmd.Parameters.AddWithValue("@LastName", "Doe");
-                    cmd.Parameters.AddWithValue("@Email", "john.doe@example.com");
+                    cmd.Parameters.AddWithValue("@Action", "Insert");
+                    cmd.Parameters.AddWithValue("@Id", account?.Id);
+                    cmd.Parameters.AddWithValue("@Name", account?.Name);
+                    cmd.Parameters.AddWithValue("@UserType", account?.UserType);
+                    cmd.Parameters.AddWithValue("@Cash", account?.Cash);
+                    cmd.Parameters.AddWithValue("@ParentAccountId", account?.ParentAccountId);
+                    cmd.Parameters.AddWithValue("@AccountType", account?.AccountType);
+                    cmd.Parameters.AddWithValue("@Recieveable", account?.Recieveable);
 
                     conn.Open();
-                    cmd.ExecuteNonQuery();
+                    try
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+
+                        throw;
+                    }
                 }
             }
         }

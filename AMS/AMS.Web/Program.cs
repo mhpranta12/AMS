@@ -7,6 +7,7 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity;
 using AMS.Identity;
+using AMS.Service.Modules;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,7 +28,7 @@ builder.Services.AddIdentity();
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
-    //containerBuilder.RegisterModule(new ApplicationModule());
+    containerBuilder.RegisterModule(new ServiceModule());
     containerBuilder.RegisterModule(new InfrustructureModule(connectionString,
         migrationAssembly));
     //containerBuilder.RegisterModule(new WebModule());

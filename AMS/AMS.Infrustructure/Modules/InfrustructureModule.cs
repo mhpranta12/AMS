@@ -1,4 +1,6 @@
-﻿using Autofac;
+﻿using AMS.Core.Interfaces;
+using AMS.Infrustructure.Repositories;
+using Autofac;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +30,8 @@ namespace AMS.Infrustructure.Modules
                 .WithParameter("connectionString", _connectionString)
                 .WithParameter("migrationAssembly", _migrationAssembly)
             .InstancePerLifetimeScope();
+            builder.RegisterType<AccountRepository>().As<IAccountRepository>()
+                .InstancePerLifetimeScope();
         }
     }
 }
