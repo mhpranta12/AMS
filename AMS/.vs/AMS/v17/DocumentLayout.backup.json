@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "G:\\Work\\Qtec Interview\\AMS\\AMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -59,19 +63,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T17:19:07.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-27T17:08:10.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AMS.Web\\Pages\\Shared\\_Layout.cshtml",
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -97,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CreateAccount.cshtml.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
               "RelativeDocumentMoniker": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IRoleRepository.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Core\\Interfaces\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "AMS.Core\\Interfaces\\IRoleRepository.cs",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "AMS.Web\\Pages\\Index.cshtml",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CreateAccount.cshtml",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
               "RelativeDocumentMoniker": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Program.cs",
               "RelativeDocumentMoniker": "AMS.Web\\Program.cs",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "AMS.Infrustructure\\Repositories\\GenericRepository.cs",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "AMS.Infrustructure\\Repositories\\AccountRepository.cs",
