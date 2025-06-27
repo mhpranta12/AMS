@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "G:\\Work\\Qtec Interview\\AMS\\AMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\pages\\accounts\\viewaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\pages\\accounts\\viewaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\pages\\accounts\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\pages\\accounts\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\pages\\accounts\\createaccount.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|solutionrelative:ams.web\\pages\\accounts\\createaccount.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95F2E01C-DC69-49C2-A2C3-0128779F9DAF}|AMS.Core\\AMS.Core.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.core\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F2E01C-DC69-49C2-A2C3-0128779F9DAF}|AMS.Core\\AMS.Core.csproj|solutionrelative:ams.core\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.infrustructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|solutionrelative:ams.infrustructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D93B84B-2744-4220-A51E-33B7E7D86DE1}|AMS.Web\\AMS.Web.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.infrustructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|solutionrelative:ams.infrustructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|g:\\work\\qtec interview\\ams\\ams\\ams.infrustructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3FDBAC-CB17-4EFD-A60D-BD4545079F3D}|AMS.Infrustructure\\AMS.Infrustructure.csproj|solutionrelative:ams.infrustructure\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,45 +59,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AMS.Web\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AMS.Web\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBgAAAARAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T15:25:09.897Z",
+              "WhenOpened": "2025-06-27T17:08:10.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ViewAccount.cshtml",
-              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\ViewAccount.cshtml",
-              "RelativeDocumentMoniker": "AMS.Web\\Pages\\Accounts\\ViewAccount.cshtml",
-              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\ViewAccount.cshtml",
-              "RelativeToolTip": "AMS.Web\\Pages\\Accounts\\ViewAccount.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AMS.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AMS.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T15:21:22.242Z",
+              "WhenOpened": "2025-06-27T17:06:19.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "AMS.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T17:05:51.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateAccount.cshtml.cs",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
+              "RelativeDocumentMoniker": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
+              "RelativeToolTip": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA5wCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T16:09:54.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Core\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "AMS.Core\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Core\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "AMS.Core\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T16:06:23.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "AMS.Web\\Pages\\Index.cshtml",
+              "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "AMS.Web\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T15:32:31.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreateAccount.cshtml",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
               "RelativeDocumentMoniker": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
               "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
               "RelativeToolTip": "AMS.Web\\Pages\\Accounts\\CreateAccount.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAIAwwCAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-27T15:20:36.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Web\\Program.cs",
               "RelativeDocumentMoniker": "AMS.Web\\Program.cs",
@@ -94,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "AMS.Infrustructure\\Repositories\\GenericRepository.cs",
@@ -107,13 +175,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "AMS.Infrustructure\\Repositories\\AccountRepository.cs",
               "ToolTip": "G:\\Work\\Qtec Interview\\AMS\\AMS\\AMS.Infrustructure\\Repositories\\AccountRepository.cs",
               "RelativeToolTip": "AMS.Infrustructure\\Repositories\\AccountRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T12:28:04.638Z",
               "EditorCaption": ""
