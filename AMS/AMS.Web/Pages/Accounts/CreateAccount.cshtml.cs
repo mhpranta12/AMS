@@ -1,3 +1,4 @@
+using AMS.Infrustructure.Utilities;
 using AMS.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -14,6 +15,7 @@ namespace AMS.Web.Pages.Accounts
         public string Name { get; set; }
         [BindProperty]
         public string? UserType { get; set; }
+
         [BindProperty]
         public string? AccountType { get; set; }
         [BindProperty]
@@ -28,7 +30,7 @@ namespace AMS.Web.Pages.Accounts
         }
         public void OnGet()
         {
-
+            
         }
         public IActionResult OnPost()
         {
