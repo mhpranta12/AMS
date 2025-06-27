@@ -5,7 +5,7 @@ DECLARE @RoleId UNIQUEIDENTIFIER
 --AspNetRoles Table Data Import
 IF NOT EXISTS(Select * FROM AspNetRoles Where [Name] ='Admin')
 	INSERT INTO AspNetRoles(Id, [Name]) Values
-	('4F6A88E7-49F1-48E3-9F58-14F657CB09F1','Admin');
+	(NEWID(),'Admin');
 
 SELECT @RoleId = Id FROM AspNetRoles WHERE [Name] = 'Admin'
 SELECT @UserId = Id FROM AspNetUsers WHERE Email = 'admin@gmail.com'
